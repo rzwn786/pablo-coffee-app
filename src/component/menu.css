@@ -1,0 +1,19 @@
+body {
+    height: 100%;
+    background-color: #000000;
+  }
+.menu-list{
+    position: absolute;
+    display: flex;
+    top: 15%;
+    justify-content:center;
+    width: 100%;
+    flex-direction:column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.637);   
+}
+.menu-list h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+

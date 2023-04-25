@@ -1,0 +1,46 @@
+.locate-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  .carousel .image{
+      width: 100%;
+      height:auto;
+  }
+
+  .margin-top {
+    margin-top: 100px;
+  }
+  
+  .contact-container {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 30rem;
+    background-color: #5352526a;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-container h2 {
+    margin-top: 0;
+    color: white;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    .carousel{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .carousel .image{
+        width: 100%;
+        height:auto;
+    }
+  }
+

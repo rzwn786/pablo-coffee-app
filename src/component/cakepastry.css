@@ -1,0 +1,47 @@
+.cake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .cake-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .cake-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+
+  .cake-image:hover{
+    top: -10px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  
